@@ -68,3 +68,8 @@ h1, h2, h3 {
   padding-bottom: 100px;
   color: white;
 }
+
+//Removes sign in and sign out flash notice
+.alert-notice {
+  display: none;
+}
