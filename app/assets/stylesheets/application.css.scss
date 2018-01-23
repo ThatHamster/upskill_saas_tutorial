@@ -24,6 +24,10 @@ h1, h2, h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
+body {
+  margin-top: -20px;
+}
+
 //Background gradient for navbar and home callout
 .home-callout, .navbar {
   //Gradient provided by @_ighosh at uiGradients.com
