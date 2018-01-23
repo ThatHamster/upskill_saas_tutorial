@@ -1,5 +1,5 @@
 class Users::RegistrationsController < Devise::RegistrationsController
-  before_eaction :select_plan, only: :new
+  before_action :select_plan, only: :new
   
   # Extend default devise gem behavior
   # so that users signing up with pro account (Plan ID 2)
